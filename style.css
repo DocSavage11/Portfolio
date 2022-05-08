@@ -190,6 +190,34 @@ body {
     width: 150px;
 }
 
+/* .html {
+    background-image: url(/Assests/Images/Html-Logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.css {
+    background-image: url(/Assests/Images/CSS-Logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.javaScript {
+    background-image: url(/Assests/Images/JavaScript-Logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+*/
+
+#codeLogo {
+    margin: auto;
+    height: 160px;
+}
+
+
 /* INTRODUCTION SECTION END */
 
 
