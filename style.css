@@ -1,0 +1,1034 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Castoro:ital@1&family=Charm&family=Cormorant+Garamond:wght@300&family=Courgette&family=Dancing+Script&family=Gabriela&family=Graduate&family=Merienda&family=Merienda+One&family=Nunito:ital,wght@0,400;1,300&family=Old+Standard+TT&family=Pacifico&family=Quintessential&family=Radio+Canada:wght@500&family=Ramaraja&family=Roboto:wght@100;400&family=UnifrakturMaguntia&family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-color: #faf3e6;
+}
+
+/* HEADER START */
+
+.heroSection {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+
+    height: 400px;
+    width: 100%;
+}
+
+/* NAV START */
+
+.topBar {
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+
+    gap: 50px;
+
+    width: 1375px;
+
+
+}
+
+#brand {
+    color: black;
+    font-size: 25px;
+    font-weight: 500px;
+
+    margin: auto;
+    margin-left: 0px;
+}
+
+.rightSide {
+    /* background-color: #463f33;
+    border-radius: 20px;
+
+    padding: 8px; */
+    gap: 20px;
+
+    display: flex;
+
+    margin: auto;
+    margin-right: 0px;
+}
+
+.rightSideSecondary {
+    gap: 20px;
+
+    display: flex;
+
+    margin: auto;
+    margin-right: 0px;
+
+    display: none;
+}
+
+#navLink {
+    color: black;
+    transition: 0.5s;
+}
+
+#navLink a {
+    color: black;
+}
+
+#navLink a:visited {
+    color: black;
+}
+
+#navLink a:active {
+    color: black;
+}
+
+#navLink a:hover {
+    transform: scale("");
+}
+/* NAV END */
+
+
+/* HEADER END */
+
+
+
+/* BODY CONTENT START */
+
+/* INTRODUCTION SECTION START */
+
+.introductionSection {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+
+    height: 400px;
+    width: 100%;
+}
+
+.aboutBox, .toolBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+}
+
+#aboutTitle {
+    font-size: 23px;
+
+    margin-bottom: 20px;
+}
+
+#aboutDescription {
+    font-size: 17px;
+}
+
+#aboutDescription2 {
+    font-size: 17px;
+    display: none;
+}
+
+#toolsForProduction {
+    font-size: 23px;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.languageBox {
+    display: flex;
+
+    margin: auto;
+
+    gap: 20px;
+}
+
+.html, .css, .javaScript {
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 200px;
+    width: 150px;
+}
+
+/* INTRODUCTION SECTION END */
+
+
+
+/* PROJECT SECTION START */
+
+.projectSection {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+
+    height: 550px;
+    width: 100%;
+}
+
+#projectSectionTitle {
+    font-size: 23px;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.projectContainer {
+    display: flex;
+
+    margin: auto;
+
+    gap: 20px;
+}
+
+.firstProjectRow {
+    display: flex;
+    gap: 20px;
+}
+
+.secondProjectRow {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 350px;
+    width: 250px;
+}
+
+
+/* PROJECT SECTION END */
+
+/* ENTITIES WORKED WITH START */
+
+.entities {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+
+    height: 550px;
+    width: 100%;
+}
+
+.firstEntityRow {
+    display: flex;
+    gap: 20px;
+}
+
+.secondEntityRow {
+    display: flex;
+    gap: 20px;
+}
+
+.aboutEntities, .toolBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+}
+
+#entitiesTitle {
+    font-size: 23px;
+
+    margin-bottom: 20px;
+}
+
+#entitiesDescription {
+    font-size: 17px;
+}
+
+#toolsForProduction {
+    font-size: 23px;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.entitiesBox {
+    display: flex;
+
+    margin: auto;
+
+    gap: 20px;
+}
+
+.entity {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 200px;
+    width: 200px;
+}
+
+
+/* ENTITIES WORKED WITH END */
+
+
+/* BODY CONTENT END */
+
+
+/* FOOTER START */
+
+.footer {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+
+    height: 550px;
+    width: 100%;
+}
+
+#emplore {
+    font-size: 30px;
+
+    margin: auto;
+
+}
+
+.contact {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+
+    padding: 20px;
+}
+
+#contact {
+    color: black;
+    font-size: 30px;
+}
+
+.footerLinks {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    display: flex;
+
+    margin: auto;
+
+    padding: 8px;
+    gap: 20px;
+}
+
+#footerNavLink {
+    margin: auto;
+    color: black;
+}
+
+#footerNavLink {
+    color: black;
+    transition: 0.5s;
+}
+
+#footerNavLink a {
+    color: black;
+}
+
+#footerNavLink a:visited {
+    color: black;
+}
+
+#footerNavLink a:active {
+    color: black;
+}
+
+#navLfooterNavLinkink a:hover {
+    transform: scale("");
+}
+
+#copyright {
+    margin: auto;
+}
+
+.footerLinksSecondary {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    display: flex;
+
+    margin: auto;
+
+    padding: 8px;
+    gap: 20px;
+
+    display: none;
+}
+
+/* FOOTER END */
+
+
+
+
+
+
+
+@media only screen and (min-width: 1500px) {
+    
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    .topBar {
+        width: 90%;
+    }
+
+    .projectSection {
+        height: 900px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+
+    .entities {
+        flex-direction: column;
+    }
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+    .topBar {
+        width: 90%;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 600px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    .projectSection {
+        height: 900px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+
+    .entities {
+        flex-direction: column;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 570px) and (max-width: 800px) {
+    .topBar {
+        flex-direction: column;
+
+        gap: 20px;
+
+        width: 90%;
+    }
+
+    #brand {
+        margin: auto;
+    }
+
+    .rightSide {
+        margin: auto;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 600px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    .projectSection {
+        height: 900px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+
+    .entities {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+    #emplore {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 570px) {
+    .topBar {
+         flex-direction: column;
+
+        gap: 20px;
+
+        width: 90%;
+    }
+
+    #brand {
+        margin: auto;
+    }
+
+    .rightSide {
+        margin: auto;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 1000px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    .languageBox {
+        flex-direction: column;
+    }
+
+    .projectSection {
+        height: 1600px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+    
+    .firstProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .entities {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+    #emplore {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 480px) {
+    .heroSection {
+        padding: 0px;
+    }
+
+    .topBar {
+        flex-direction: column;
+
+        margin-top: 20px;
+
+        gap: 20px;
+
+        width: 100%;
+    }
+
+    #brand {
+        margin: auto;
+    }
+
+    .rightSide {
+        margin: auto;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 1000px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    #aboutDescription {
+        display: none;
+    }
+
+    #aboutDescription2 {
+        display: block;
+    }
+
+    .languageBox {
+        flex-direction: column;
+    }
+
+    .projectSection {
+        height: 1600px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+    
+    .firstProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .entities {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+    .entity {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+    #emplore {
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+    .heroSection {
+        padding: 0px;
+    }
+
+    .topBar {
+        flex-direction: column;
+
+        margin-top: 20px;
+
+        gap: 20px;
+
+        width: 100%;
+    }
+
+    #brand {
+        margin: auto;
+    }
+
+    .rightSide {
+        margin: auto;
+        display: none;
+    }
+
+    .rightSideSecondary {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        display: flex;
+    
+        margin: auto;
+    }
+
+    .firstLinkRow {
+        margin: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .secondLinkRow {
+        margin: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 1000px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    #aboutDescription {
+        display: none;
+    }
+
+    #aboutDescription2 {
+        display: block;
+    }
+
+    .languageBox {
+        flex-direction: column;
+    }
+
+    .projectSection {
+        height: 1600px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+    
+    .firstProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .entities {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+    .entity {
+        height: 120px;
+        width: 120px;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+    #emplore {
+        text-align: center;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    .footerLinksSecondary {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+    .heroSection {
+        padding: 0px;
+    }
+
+    .topBar {
+        flex-direction: column;
+
+        margin-top: 20px;
+
+        gap: 20px;
+
+        width: 100%;
+    }
+
+    #brand {
+        margin: auto;
+    }
+
+    .rightSide {
+        margin: auto;
+        display: none;
+    }
+
+    .rightSideSecondary {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        display: flex;
+    
+        margin: auto;
+    }
+
+    .firstLinkRow {
+        margin: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .secondLinkRow {
+        margin: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .introductionSection {
+        flex-direction: column;
+
+        height: 1000px;
+    }
+
+    .aboutBox {
+        text-align: center;
+    }
+
+    #aboutDescription {
+        display: none;
+    }
+
+    #aboutDescription2 {
+        display: block;
+    }
+
+    .languageBox {
+        flex-direction: column;
+    }
+
+    .projectSection {
+        height: 1600px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+    
+    .firstProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondProjectRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .entities {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .entitiesBox {
+        flex-direction: column;
+    }
+
+    .entity {
+        height: 120px;
+        width: 120px;
+    }
+
+
+    #entitiesTitle {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #entitiesDescription {
+        margin: auto;
+        text-align: center;
+    }
+
+    #emplore {
+        text-align: center;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    .footerLinksSecondary {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

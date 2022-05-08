@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Castoro:ital@1&family=Charm&family=Cormorant+Garamond:wght@300&family=Courgette&family=Dancing+Script&family=Gabriela&family=Graduate&family=Merienda&family=Merienda+One&family=Nunito:ital,wght@0,400;1,300&family=Old+Standard+TT&family=Pacifico&family=Quintessential&family=Radio+Canada:wght@500&family=Ramaraja&family=Roboto:wght@100;400&family=UnifrakturMaguntia&family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-color: white;
+}
+
+
+
+.webProjectsSectionContainer {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+
+    margin: auto;
+
+    padding: 20px;
+
+    height: 100%;
+    width: 100%;
+}
+
+.titleOfWebProjects {
+    margin: auto;
+    margin-top: 0px;
+}
+
+#webProjectsTitle {
+    color: white;
+    font-size: 30px;
+
+    margin: auto;
+
+}
+
+.projectBox {
+    display: flex;
+
+    margin: auto;
+    margin-top: 50px;
+
+    gap: 20px;
+}
+
+.displayImage {
+    background-image: url(/Assests/Images/JETPACK!!\ by\ Kenny\ Vo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 100px;
+    width: 100px;
+}
+
+.descriptionBox {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    padding: 20px;
+
+    height: 100px;
+    width: 320px;
+}
+
+#websiteTitle {
+    color: white;
+    font-size: 17px;
+
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#description {
+    color: white;
+    font-size: 15px;
+
+    margin: auto; 
+
+    text-align: center;
+}
