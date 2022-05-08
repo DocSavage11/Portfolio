@@ -184,6 +184,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    position: relative;
+
     margin: auto;
 
     height: 200px;
@@ -212,8 +214,39 @@ body {
 }
 */
 
-#codeLogo {
+#codeLogo1 {
     margin: auto;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    height: 135px;
+}
+
+#codeLogo2 {
+    margin: auto;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    height: 145px;
+}
+
+#codeLogo3 {
+    margin: auto;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
     height: 160px;
 }
 
